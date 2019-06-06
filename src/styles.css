@@ -1,0 +1,46 @@
+body {
+  margin: 1rem;
+}
+
+h2 {
+  margin-top: 1.5em;
+}
+
+.Popup {
+  background: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+  max-width: 500px;
+  padding: 0.5em;
+}
+
+.Support {
+  padding: 0.5em;
+  color: white;
+  display: inline-block;
+  margin: 0.2em;
+  cursor: pointer;
+}
+
+.Support-y {
+  background: #139424;
+}
+
+.Support-n,
+.Support-u {
+  background: #c44230;
+}
+
+.Support-a,
+.Support-p {
+  background: #899a00;
+}
+
+.Input {
+  width: 98%;
+  padding: 0.2em 0.4em;
+}
+
+.card + .card {
+  margin-top: 1em;
+}
